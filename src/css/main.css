@@ -1,0 +1,124 @@
+.twitter{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 37px;
+    height: 37px;
+}
+#botao-twi{
+    position: absolute;
+    top: 25px;
+    right: 147px;
+    width: 40px;
+    height: 40px;
+    border-color: rgb(241, 176, 176);
+    background-color: rgb(241, 176, 176);
+    border-inline: rgb(241, 176, 176);;
+}
+.whatsapp{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+}
+#botao-what{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-color: rgb(241, 176, 176);
+    background-color: rgb(241, 176, 176);
+    border-inline: rgb(241, 176, 176);;
+
+}
+.instagram{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+}
+#botao-inst{
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    width: 40px;
+    height: 40px; 
+    border-color: rgb(241, 176, 176);
+    background-color: rgb(241, 176, 176);
+    border-inline: rgb(241, 176, 176);
+}
+body{
+    background-image: url(../imagens/81jFMJP3iLL.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+    
+}
+input{
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+main{
+    width: 50vw;
+    margin: 0 auto;
+}
+.search-bar {
+    display: center;
+   
+   
+  }
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #0a0a0a;
+    border-radius: 4px;
+  }
+  .search-bar button[type="submit"] {
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #0a0a0a;
+    color: #080808;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  form input{
+    text-align: center;
+  }
+  form h3{
+    color: rgb(252, 251, 251);
+    font-family: 'Abril Fatface', cursive;
+    border-color: #080808;
+  }
+
+  @media only screen and (max-width: 1300px){
+    form{
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    input {
+
+        width:  90%;
+    }
+
+    main {
+
+        width: 90%;
+    }
+  }
+  .test > input 
+  {
+    border-radius: 10px;
+  }
